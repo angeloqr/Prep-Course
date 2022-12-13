@@ -162,7 +162,7 @@ describe('esImpar(num)', function() {
   it('Deberia devolver true si el numero es impar sino false', function() {
     expect(esImpar(6)).toBe(false);
     expect(esImpar(7)).toBe(true);
-    expect(esImpar(0)).toBe(false);
+    expect(esImpar(0)).toBe(true);
   });
 });
 
